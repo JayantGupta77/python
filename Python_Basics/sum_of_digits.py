@@ -7,7 +7,6 @@ def sum_of_digits(number):
         
         digit_sum += last_digit
         
-        #    e.g., 123 // 10 gives 12
         number = number // 10
         
     return digit_sum
