@@ -1,0 +1,10 @@
+a = 10
+b = 20
+c = 10
+d = 30.0
+e = 30
+list1 = [1, 2, 3]
+list2 = [1, 2, 3]
+list3 = [4, 5, 6]
+str1 = "hello"
+str2 = "world"
