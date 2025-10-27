@@ -8,7 +8,7 @@ def set_matrix_zeroes(matrix):
     first_row_has_zero = any(matrix[0][j] == 0 for j in range(cols))
     first_col_has_zero = any(matrix[i][0] == 0 for i in range(rows))
     
-    # Mark zeros in first row and column
+    # Mark zeros in first row and column and all lines
     for i in range(1, rows):
         for j in range(1, cols):
             if matrix[i][j] == 0:
