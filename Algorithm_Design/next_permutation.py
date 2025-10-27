@@ -16,3 +16,5 @@ def next_permutation(nums):
         nums[left], nums[right] = nums[right], nums[left]
         left += 1
         right -= 1
+
+        #solved in right code
