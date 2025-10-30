@@ -9,3 +9,5 @@ for word in words:
 
 result = list(anagrams.values())
 print(result)
+
+#output
