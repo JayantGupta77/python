@@ -88,3 +88,5 @@ if __name__ == '__main__':
     print(decoded_text)
     
     compare_size(text, encoded_text)
+
+#python code finished
