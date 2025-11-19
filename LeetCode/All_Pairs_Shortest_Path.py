@@ -17,7 +17,7 @@ def floyd_warshall(n, edges):
                     dist[i][j] = dist[i][k] + dist[k][j]
     return dist
 
-# Example usage (with correction for the given edges and n=6 for node 5):
+# Example usage (with correction for the given edges and n=6 for node 5)
 n = 6
 edges = [
     (0, 1, 3), (1, 2, -2), (2, 3, 1), (0, 3, 10),
