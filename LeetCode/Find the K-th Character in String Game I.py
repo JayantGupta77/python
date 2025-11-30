@@ -2,7 +2,6 @@ class Solution(object):
     def kthCharacter(self, k):
         
         word = "a"
-        
         while len(word) < k:
             next_str = ""
             for ch in word:
