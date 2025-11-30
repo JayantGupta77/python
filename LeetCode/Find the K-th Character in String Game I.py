@@ -9,7 +9,6 @@ class Solution(object):
                     next_str += 'a'
                 else:
                     next_str += chr(ord(ch) + 1)
-            
             word += next_str
         
         return word[k-1]
