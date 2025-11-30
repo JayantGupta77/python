@@ -4,13 +4,13 @@ class Robot:
         self.y = y
 
     def move(self, direction, steps):
-        if direction == 'u':      # up
+        if direction == 'u':   
             self.y += steps
-        elif direction == 'd':    # down
+        elif direction == 'd':   
             self.y -= steps
-        elif direction == 'l':    # left
+        elif direction == 'l':  
             self.x -= steps
-        elif direction == 'r':    # right
+        elif direction == 'r':   
             self.x += steps
 
     def get_position(self):
