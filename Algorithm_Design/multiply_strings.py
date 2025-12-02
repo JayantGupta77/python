@@ -10,7 +10,7 @@ def multiply_strings(num1: str, num2: str) -> str:
         for j in range(len(num2)):
             digit_mul = int(num1[i]) * int(num2[j])
             result[i + j] += digit_mul
-            result[i + j + 1] += result[i + j] // 10  # carry
+            result[i + j + 1] += result[i + j] // 10 
             result[i + j] %= 10
 
     while result[-1] == 0:
