@@ -18,7 +18,6 @@ class Employee:
 
 
 harry = Employee("Harry", 1300000, "JavaScript") 
-# harry.name = "Harry"
 print(harry.name, harry.salary, harry.language)
 
 rohan = Employee()
