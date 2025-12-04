@@ -13,7 +13,6 @@ class Solution(object):
                 i += 1
                 j += 1
             else:
-                # Current trainer can't handle this player, try next trainer
                 j += 1
         
         return matches
