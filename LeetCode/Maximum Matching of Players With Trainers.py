@@ -9,7 +9,6 @@ class Solution(object):
         
         while i < len(players) and j < len(trainers):
             if players[i] <= trainers[j]:
-                # We can match this player with this trainer
                 matches += 1
                 i += 1
                 j += 1
