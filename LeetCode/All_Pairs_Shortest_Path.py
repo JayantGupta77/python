@@ -4,7 +4,6 @@ def floyd_warshall(n, edges):
     for i in range(n):
         dist[i][i] = 0
 
-    # Set initial edge weights
     for u, v, w in edges:
         dist[u][v] = w
 
