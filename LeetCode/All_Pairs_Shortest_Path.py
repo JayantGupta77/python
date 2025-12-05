@@ -1,5 +1,4 @@
 def floyd_warshall(n, edges):
-    # Initialize distance matrix with infinity
     dist = [[float('inf')] * n for _ in range(n)]
     # Distance to self is 0
     for i in range(n):
