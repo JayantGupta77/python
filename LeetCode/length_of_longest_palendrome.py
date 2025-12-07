@@ -6,7 +6,6 @@ def longest_palindrome_length(s):
     dp = [[False]*n for _ in range(n)]
     max_length = 1
 
-    # All substrings of length 1 are palindromes
     for i in range(n):
         dp[i][i] = True
 
