@@ -3,7 +3,6 @@ def longest_palindrome_length(s):
     if n == 0:
         return 0
 
-    # dp[i][j] will be True if s[i:j+1] is a palindrome
     dp = [[False]*n for _ in range(n)]
     max_length = 1
 
