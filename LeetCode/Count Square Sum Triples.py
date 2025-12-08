@@ -2,7 +2,6 @@ class Solution(object):
     def countTriples(self, n):
         
         count = 0
-        # Precompute squares for efficiency
         squares = set([i * i for i in range(1, n + 1)])
         
         # Iterate through possible values of a and b
