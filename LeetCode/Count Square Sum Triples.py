@@ -4,7 +4,6 @@ class Solution(object):
         count = 0
         squares = set([i * i for i in range(1, n + 1)])
         
-        # Iterate through possible values of a and b
         for a in range(1, n + 1):
             for b in range(1, n + 1):
                 c2 = a * a + b * b
