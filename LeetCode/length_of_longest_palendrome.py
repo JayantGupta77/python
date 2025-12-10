@@ -9,7 +9,6 @@ def longest_palindrome_length(s):
     for i in range(n):
         dp[i][i] = True
 
-    # Check for substrings of length greater than 1
     for start in range(n-1, -1, -1):
         for end in range(start+1, n):
             if s[start] == s[end]:
