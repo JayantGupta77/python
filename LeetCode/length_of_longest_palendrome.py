@@ -12,7 +12,6 @@ def longest_palindrome_length(s):
     for start in range(n-1, -1, -1):
         for end in range(start+1, n):
             if s[start] == s[end]:
-                # If it's a 2 character or if the inner segment is palindrome
                 if end - start == 1 or dp[start+1][end-1]:
                     dp[start][end] = True
                     max_length = max(max_length, end - start + 1)
