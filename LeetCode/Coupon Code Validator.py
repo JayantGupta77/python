@@ -22,7 +22,6 @@ class Solution:
             if isActive[i] and is_valid_code(code[i]) and businessLine[i] in category_order:
                 valid.append((category_order[businessLine[i]], code[i]))
         
-        # Sort by category order, then lexicographically by code
         valid.sort(key=lambda x: (x[0], x[1]))
         
         # Extract sorted codes
