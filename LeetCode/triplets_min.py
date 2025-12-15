@@ -44,7 +44,7 @@ def solve_from_lists(A, queries):
         if K < 1 or K > total_triplets:
             answers.append(-1)
             continue
-        idx = bisect_left(cum, K)  # idx in [0, m-1]
+        idx = bisect_left(cum, K) 
         answers.append(vals[idx])
     return answers
 
