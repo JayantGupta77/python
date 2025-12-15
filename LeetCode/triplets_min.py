@@ -7,7 +7,6 @@ def nC3(n):
     return (n * (n-1) * (n-2)) // 6
 
 def solve_from_lists(A, queries):
-    # A : list of integers
     # queries : list of integer K (1-indexed positions)
     from collections import Counter
     freq = Counter(A)
