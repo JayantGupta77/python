@@ -13,7 +13,6 @@ def solve_from_lists(A, queries):
     # unique values sorted ascending
     vals = sorted(freq.keys())
     m = len(vals)
-    # build suffix counts: for each value v, cnt_ge[v] = number of elements >= v
     # compute list cnt_ge aligned with vals (ascending), where cnt_ge[i] = sum freq[vals[i]:]
     counts = [freq[v] for v in vals]
     # suffix sums: start from right
