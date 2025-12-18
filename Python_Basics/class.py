@@ -2,7 +2,7 @@ class Employee:
     language = "Python" # This is a class attribute
     salary = 1200000
 
-    def __init__(self, name, salary, language): # dunder method which is automatically called
+    def __init__(self, name, salary, language): 
         self.name = name
         self.salary = salary
         self.language = language
