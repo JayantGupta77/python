@@ -1,5 +1,5 @@
 class Employee: 
-    language = "Python" # This is a class attribute
+    language = "Python" 
     salary = 1200000
 
     def __init__(self, name, salary, language): 
