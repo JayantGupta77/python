@@ -5,7 +5,6 @@ def minCostClimbingStairs(cost):
         current = cost[i] + min(first, second)
         first, second = second, current
     return min(first, second)
-
 cost1 = [10, 15, 20]
 print(minCostClimbingStairs(cost1)) 
 
