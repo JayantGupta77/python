@@ -12,6 +12,5 @@ class Solution(object):
             
             if (left_sum - right_sum) % 2 == 0:
                 count += 1
-        
         return count
         
