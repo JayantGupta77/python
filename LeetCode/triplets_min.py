@@ -38,7 +38,6 @@ def solve_from_lists(A, queries):
 
     total_triplets = cum[-1] if cum else 0
 
-    # answer queries: find smallest index i where cum[i] >= K
     answers = []
     for K in queries:
         if K < 1 or K > total_triplets:
