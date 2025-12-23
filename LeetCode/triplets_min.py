@@ -16,6 +16,7 @@ def solve_from_lists(A, queries):
     # compute list cnt_ge aligned with vals (ascending), where cnt_ge[i] = sum freq[vals[i]:]
     counts = [freq[v] for v in vals]
     # suffix sums: start from right
+    
     cnt_ge = [0] * m
     s = 0
     for i in range(m-1, -1, -1):
