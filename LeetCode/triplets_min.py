@@ -22,7 +22,6 @@ def solve_from_lists(A, queries):
         s += counts[i]
         cnt_ge[i] = s
 
-    # compute number of triplets whose min == vals[i]
     trip_counts = [0] * m
     for i in range(m):
         c_ge = cnt_ge[i]
