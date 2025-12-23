@@ -29,7 +29,6 @@ def solve_from_lists(A, queries):
         c_next = cnt_ge[i+1] if i+1 < m else 0
         trip_counts[i] = nC3(c_ge) - nC3(c_next)
 
-    # build prefix sums (cumulative counts) in ascending order of minima
     cum = []
     running = 0
     for t in trip_counts:
