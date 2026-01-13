@@ -8,5 +8,6 @@ def minCostClimbingStairs(cost):
 cost1 = [10, 15, 20]
 print(minCostClimbingStairs(cost1)) 
 
+
 cost2 = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
 print(minCostClimbingStairs(cost2)) 
