@@ -16,6 +16,7 @@ class Solution:
                     return False
             return True
         
+        
         valid = []
         for i in range(n):
             if isActive[i] and is_valid_code(code[i]) and businessLine[i] in category_order:
