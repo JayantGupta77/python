@@ -20,4 +20,4 @@ def longest_palindrome_length(s):
 
 # Example usage:
 s = "abcbab"
-print(longest_palindrome_length(s))  # Output: 5
+print(longest_palindrome_length(s)) 
