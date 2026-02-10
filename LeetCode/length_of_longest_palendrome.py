@@ -2,7 +2,6 @@ def longest_palindrome_length(s):
     n = len(s)
     if n == 0:
         return 0
-
     dp = [[False]*n for _ in range(n)]
     max_length = 1
 
