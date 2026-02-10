@@ -17,7 +17,6 @@ def longest_palindrome_length(s):
                     max_length = max(max_length, end - start + 1)
     return max_length
 
-
 # Example usage:
 s = "abcbab"
 print(longest_palindrome_length(s)) 
