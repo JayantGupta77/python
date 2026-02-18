@@ -8,7 +8,6 @@ class Solution:
         category_order = {cat: i for i, cat in enumerate(categories)}
     
     
-    
         # Helper function to check if code is valid 
         def is_valid_code(s: str) -> bool:
             if not s:
