@@ -22,6 +22,5 @@ class Solution:
                 valid.append((category_order[businessLine[i]], code[i]))
         
         valid.sort(key=lambda x: (x[0], x[1]))
-    
-    
+
         return [c for _, c in valid]
