@@ -4,10 +4,11 @@ class Solution:
     def validateCoupons(self, code: List[str], businessLine: List[str], isActive: List[bool]) -> List[str]:
         n = len(code)
 
+
         categories = ["electronics", "grocery", "pharmacy", "restaurant"]
         category_order = {cat: i for i, cat in enumerate(categories)}
     
-    
+
         # Helper function to check if code is valid 
         def is_valid_code(s: str) -> bool:
             if not s:
