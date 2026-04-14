@@ -1,6 +1,7 @@
 class Solution(object):
     def countPartitions(self, nums):
 
+
         n = len(nums)
         total_sum = sum(nums)
         left_sum = 0
