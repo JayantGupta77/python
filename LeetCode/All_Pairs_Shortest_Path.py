@@ -3,8 +3,6 @@ def floyd_warshall(n, edges):
     # Distance to self is 0
     for i in range(n):
         dist[i][i] = 0
-
-
     for u, v, w in edges:
         dist[u][v] = w
 
