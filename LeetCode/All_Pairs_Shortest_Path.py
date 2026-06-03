@@ -7,7 +7,6 @@ def floyd_warshall(n, edges):
         dist[u][v] = w
 
 
-
     for k in range(n):
         for i in range(n):
             for j in range(n):
