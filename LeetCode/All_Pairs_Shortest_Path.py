@@ -14,7 +14,6 @@ def floyd_warshall(n, edges):
     return dist
 
 
-
 # Example usage (with correction for the given edges and n=6 for node 5
 n = 6
 edges = [
